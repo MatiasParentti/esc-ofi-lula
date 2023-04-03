@@ -32,7 +32,10 @@ export default function Carrousel() {
                         </div>
                     </div>
 
-                    <div className="carousel-item  owl-carousel-item position-relative">
+{/* 
+
+
+  <div className="carousel-item  owl-carousel-item position-relative">
                         <img className="img-fluid" src="img/banner.jpg" alt="" />
                         <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style={{ background: 'rgba(24, 29, 56, .7)' }}>
                             <div className="container">
@@ -46,6 +49,10 @@ export default function Carrousel() {
                             </div>
                         </div>
                     </div>
+
+
+*/}
+                  
 
                 </div>
 
