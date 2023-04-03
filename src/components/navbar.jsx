@@ -13,7 +13,7 @@ export default function NavBar() {
 
                     <Image
 
-                        src="/img/about.ico"
+                        src="/img/favicon.ico"
                         height={70}
                         width={70}
                         alt="EscOfi"
