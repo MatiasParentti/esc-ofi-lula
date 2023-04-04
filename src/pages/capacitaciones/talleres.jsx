@@ -6,7 +6,7 @@ export default function Talleres() {
 
     return (
 
-        <Layout title='Esc-Ofi | Talleres' description='talleres'>
+        <Layout share title='Esc-Ofi | Talleres' description='talleres'>
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">
                     <div className="row justify-content-center">

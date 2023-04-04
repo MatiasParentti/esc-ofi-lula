@@ -5,7 +5,7 @@ export default function primerPost({ data }) {
 
     return (
 
-        <Layout title='Esc-Ofi | Noticias' description='Noticias'>
+        <Layout share title='Esc-Ofi | Noticias' description='Noticias'>
 
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">

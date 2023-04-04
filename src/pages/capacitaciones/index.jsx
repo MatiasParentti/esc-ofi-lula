@@ -10,7 +10,7 @@ export default function Index() {
 
     return (
 
-        <Layout title='Esc-Ofi | Inscripcion' description='capacitaciones'>
+        <Layout share title='Esc-Ofi | Inscripcion' description='capacitaciones'>
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">
                     <div className="row justify-content-center">

@@ -1,3 +1,4 @@
+
 import Layout from "@/components/layout"
 
 
@@ -6,7 +7,7 @@ export default function Nosotros() {
 
     return (
 
-        <Layout title='Esc-Ofi | Nosotros' description='Sobre Nosotros'>
+        <Layout share title='Esc-Ofi | Nosotros' description='Sobre Nosotros'>
 
 
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
@@ -35,6 +36,10 @@ export default function Nosotros() {
                     <p className="mb-4">etc</p>
                   
                 </div>
+
+            
+
+               
             </div>
         </div>
     </div>

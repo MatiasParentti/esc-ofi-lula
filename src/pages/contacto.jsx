@@ -6,7 +6,7 @@ export default function Contacto() {
 
     return (
 
-        <Layout >
+        <Layout share title='Contacto' description='contacto'>
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">
                     <div className="row justify-content-center">

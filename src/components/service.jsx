@@ -39,6 +39,7 @@ export default function Service() {
 
                             <div className="service-item text-center pt-3">
                                 <div className="p-4">
+                                    
                                     <i className="fa fa-3x fa-home service-i mb-4"></i>
                                     <h5 className="mb-3">Nuestro Lugar</h5>
                                     <p>resumen de nuestro lugar</p>

@@ -3,8 +3,9 @@ import Footer from "./footer";
 import NavBar from "./navbar";
 import Head from "next/head";
 import BtnUp from "@/components/btnUp";
+import Compartir from "./compartir";
 
-export default function Layout({ children, title, description }) {
+export default function Layout({ children, title, description, share }) {
 
 
     return (
@@ -21,8 +22,18 @@ export default function Layout({ children, title, description }) {
 
             {children}
 
-            
+           
             <BtnUp></BtnUp>
+
+            {share ? (
+                <>
+                    <Compartir></Compartir>
+                </>
+            ) : (
+                <>
+                   
+                </>
+            )}
 
             <Footer></Footer>
         </>
