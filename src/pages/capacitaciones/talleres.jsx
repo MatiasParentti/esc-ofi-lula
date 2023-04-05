@@ -1,5 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
+import Header from "@/components/header"
 
 export default function Talleres() {
 
@@ -7,21 +8,13 @@ export default function Talleres() {
     return (
 
         <Layout share title='Esc-Ofi | Talleres' description='talleres'>
-            <div className="container-fluid bg-primary py-5 mb-5 page-header">
-                <div className="container py-5">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10 text-center">
-                            <h1 className="display-3 text-white animated slideInDown">Talleres</h1>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+<Header title='Talleres'></Header>
 
             <div className="container-xxl py-5 category">
         <div className="container mt-5">
             <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
-                <h4 className="section-title bg-white text-center text-primary px-3"></h4>
+              
                 <h1 className="mb-5"></h1>
                 <div className="alert alert-info" role="alert">
                     Abierta la Inscripción

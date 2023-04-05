@@ -1,5 +1,5 @@
 import Layout from "@/components/layout"
-
+import Header from "@/components/header";
 
 export default function Contacto() {
 
@@ -7,21 +7,14 @@ export default function Contacto() {
     return (
 
         <Layout share title='Contacto' description='contacto'>
-            <div className="container-fluid bg-primary py-5 mb-5 page-header">
-                <div className="container py-5">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10 text-center">
-                            <h1 className="display-3 text-white animated slideInDown">Contacto</h1>
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+           <Header title='Contacto'></Header>
 
             <div className="container-xxl py-5">
                 <div className="container">
                     <div className="text-center wow fadeInUp" data-wow-delay="0.1s">
                         <h6 className="section-title bg-white text-center service-i px-3">Contacto</h6>
-                        <h1 className="mb-5">etc</h1>
+                        <h1 className="mb-5"></h1>
                     </div>
                     <div className="row g-4">
                         <div className="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.1s">

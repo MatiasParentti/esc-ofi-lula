@@ -11,9 +11,10 @@ export default function Compartir() {
 
         return () => {
             setUrl(window.location.href)
+            console.log(window.location.href)
         }
 
-    }, [url])
+    }, [])
 
 
     return (

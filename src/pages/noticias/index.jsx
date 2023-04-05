@@ -1,6 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link";
-
+import Header from "@/components/header";
 
 export default function Noticias({ data }) {
 
@@ -10,19 +10,7 @@ export default function Noticias({ data }) {
         <Layout title='Esc-Ofi | Noticias' description='Novedades'>
 
 
-            <div className="container-fluid bg-primary py-5 mb-5 page-header">
-                <div className="container py-5">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10 text-center">
-                            <h1 className="display-3 text-white animated slideInDown">Noticias</h1>
-                            <nav aria-label="breadcrumb">
-                            </nav>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
+            <Header title='Noticias'></Header>
 
             <div className="container">
 

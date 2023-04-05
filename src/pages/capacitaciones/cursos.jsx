@@ -1,5 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
+import Header from "@/components/header"
 
 export default function Cursos() {
 
@@ -7,16 +8,9 @@ export default function Cursos() {
     return (
 
         <Layout share title='Esc-Ofi | Cursos' description='cursos'>
-            <div className="container-fluid bg-primary py-5 mb-5 page-header">
-                <div className="container py-5">
-                    <div className="row justify-content-center">
-                        <div className="col-lg-10 text-center">
-                            <h1 className="display-3 text-white animated slideInDown">Cursos</h1>
 
-                        </div>
-                    </div>
-                </div>
-            </div>
+
+             <Header title='Cursos'></Header>
 
 
             <div className="container-xxl py-5 category">
