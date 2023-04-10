@@ -15,6 +15,7 @@ export default function About() {
                         </div>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                             <h6 className="section-title bg-white text-start service-i pe-3">Sobre Nosotros</h6>
+                            <h6 className="service-i pe-3">hola giga</h6>
                             <h1 className="mb-4">Bienvenidos a nuestra Escuela de Oficios</h1>
                             <p className="mb-4">La Escuela Inacio Lula da Silva es parte de un proyecto político social y educativo de la Asociación Civil Kasa de los Trabajadores en el partido de Moreno.</p>
                             <p className="mb-4">algun texto sobre el lugar etc</p>
