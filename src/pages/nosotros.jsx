@@ -18,7 +18,7 @@ export default function Nosotros() {
                     <div className="row g-5">
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.1s" style={{ minHeight: '400px' }}>
                             <div className="position-relative h-100">
-                                <img className="img-fluid position-absolute w-100 h-100" src="img/about.jpg" alt="" style={{ objectFit: 'cover' }} />
+                                <img className="img-fluid position-absolute w-100 h-100 animated fadeIn" src="img/about.jpg" alt="" style={{ objectFit: 'cover' }} />
                             </div>
                         </div>
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">

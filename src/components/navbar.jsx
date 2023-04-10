@@ -7,7 +7,7 @@ export default function NavBar() {
     return (
 
         <div>
-            <nav className="navbar navbar-expand-lg bg-white navbar-light shadow sticky-top p-0">
+            <nav className="navbar navbar-expand-lg bg-white navbar-light  p-0">
 
                 <Link href="/" className="navbar-brand d-flex align-items-center px-4 px-lg-5">
 
