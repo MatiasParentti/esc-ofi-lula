@@ -11,7 +11,7 @@ export default function Compartir() {
 
     useEffect(() => {
        
-        console.log(router.asPath)
+      
      
 
         return () => {
@@ -20,7 +20,6 @@ export default function Compartir() {
         }
 
     }, [])
-
 
 
 

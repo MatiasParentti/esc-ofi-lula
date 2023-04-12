@@ -1,8 +1,12 @@
 import Layout from "@/components/layout"
-import Link from "next/link";
 import Header from "@/components/header";
+import CardNoticia from "@/components/CardNoticia";
+import Noticia from '../../models/Noticia';
+import conectarDB from "@/lib/dbConnect";
 
-export default function Noticias({ data }) {
+export default function Noticias({ data, notes, noticias }) {
+
+
 
 
     return (
@@ -12,26 +16,10 @@ export default function Noticias({ data }) {
 
             <Header title='Noticias'></Header>
 
-            <div className="container">
+            {noticias.map(({ _id, title, copete, body, important }) => (
 
-                <br></br>
-                {data.map(({ id, title, body }) => (
-
-                    <div key={id} className="card-noticia card mb-3">
-                        <div className="card-body">
-                            <h5 className="card-title"> <Link href={`/noticias/${id}`}>{id} - {title}</Link></h5>
-                            <p className="card-text">{body}</p>
-                            <p className="card-text"><small className="text-muted">Last updated 3 mins ago</small></p>
-                        </div>
-                    </div>
-
-
-
-                ))}
-            </div>
-
-
-
+                <CardNoticia key={_id} _id={_id} title={title} copete={copete} body={body} important={important}></CardNoticia>
+            ))}
 
 
         </Layout>
@@ -41,16 +29,19 @@ export default function Noticias({ data }) {
 }
 
 
-export async function getStaticProps() {
+
+export async function getServerSideProps() {
     try {
-        const res = await fetch("https://jsonplaceholder.typicode.com/posts");
-        const data = await res.json();
-        return {
-            props: {
-                data,
-            },
-        };
+        await conectarDB();
+        const res = await Noticia.find({});
+        const noticias = res.map((doc) => {
+            const noticia = doc.toObject();
+            noticia._id = `${noticia._id}`;
+            return noticia;
+        });
+        return { props: { noticias } };
     } catch (error) {
         console.log(error);
     }
 }
+
