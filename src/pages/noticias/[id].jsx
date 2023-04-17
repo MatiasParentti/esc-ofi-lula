@@ -1,8 +1,7 @@
 import Layout from "@/components/layout"
 import Noticia from '../../models/Noticia';
 import conectarDB from "@/lib/dbConnect";
-import Image
-    from "next/image";
+import LayotutNoticia from "@/components/noticia";
 
 export default function primerPost({ data }) {
 
@@ -11,7 +10,7 @@ export default function primerPost({ data }) {
 
     return (
 
-        <Layout share title='Esc-Ofi | Noticias' description='Noticias'>
+        <Layout share title={`Esc-Ofi | ${data.title}`} description={`${data.copete}`}>
 
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">
@@ -27,32 +26,7 @@ export default function primerPost({ data }) {
                 </div>
             </div>
 
-            <div className="noticia container">
-                <div className="container">
-                    <h1 className="mt-5">{data.title}</h1>
-                    <div className="hr"></div>
-                    <div className="mt-5 container">
-                        <h6>{data.copete}</h6>
-                        <br></br>
-                        <img
-                            className="img-fluid "
-                            src={data.img}
-                            height={500}
-                            width={500}
-                            alt="banner"
-
-                        ></img>
-
-                        <br></br>
-                        <br></br>
-                        <p>{data.body}</p>
-                        <p className="card-text"><small className="text-muted">{data.important}</small></p>
-
-                    </div>
-
-
-                </div>
-            </div>
+            <LayotutNoticia data={data}></LayotutNoticia>
 
 
 
