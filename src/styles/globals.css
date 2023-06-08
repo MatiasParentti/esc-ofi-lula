@@ -29,6 +29,11 @@ h6 {
   font-weight: 700 !important;
 }
 
+.deco-none{
+  text-decoration: none;
+  color: var(--dark);
+}
+
 .back-to-top {
   position: fixed;
   display: none;

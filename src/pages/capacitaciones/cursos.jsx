@@ -41,10 +41,10 @@ export default function Cursos() {
                     <div class="card mb-3 mt-5">
                         <div class="card-body">
                             <h2 class="card-title">Auxiliar en Instalaciones Sanitarias y de Gas -
-                                Armador de hierros para estructuras de Hormigón armado
+                                Armador de hierros para estructuras de Hormigón Armado
                             </h2>
                         </div>
-                        <img src="/img/carpintero.jpg" class="card-img-top" alt="..." />
+                        <img src="/img/marilo.jpg" class="card-img-top" alt="..." />
                         <div class="card-body text-center">
                             <Link target="_blank" className="btn py-2 px-lg-4  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
                         </div>
