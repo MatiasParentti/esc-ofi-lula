@@ -22,9 +22,9 @@ export default function Carrousel() {
                                 <div className="row justify-content-start">
                                     <div className="col-sm-10 col-lg-8">
 
-                                        <h1 className="display-3 text-white animated slideInDown">Escuela de oficios </h1>
+                                        <h1 className="display-3 text-white animated slideInDown">Escuela de oficios</h1>
                                         <h4 className="service-i text-uppercase mb-3 animated slideInDown">Inacio Lula Da Silva</h4>
-                                        <p className="fs-5 text-white mb-4 pb-2">algun texto</p>
+                                        <p className="fs-5 text-white mb-4 pb-2"><i>Solo fracasamos cuando lo dejamos de intentar</i></p>
 
                                     </div>
                                 </div>

@@ -1,4 +1,7 @@
 
+import Link
+    from "next/link"
+
 export default function About() {
 
 
@@ -16,24 +19,19 @@ export default function About() {
                         <div className="col-lg-6 wow fadeInUp" data-wow-delay="0.3s">
                             <h6 className="section-title bg-white text-start service-i pe-3">Sobre Nosotros</h6>
                             <h1 className="mb-4">Bienvenidos a nuestra Escuela de Oficios</h1>
-                            <p className="mb-4">La Escuela Inacio Lula da Silva es parte de un proyecto político social y educativo de la Asociación Civil Kasa de los Trabajadores en el partido de Moreno.</p>
-                            <p className="mb-4">algun texto sobre el lugar etc</p>
+                
+                            <p className="mb-4">La Escuela Inacio Lula Da Silva es parte de un proyecto político social y educativo de la Asociación Civil Kasa de los Trabajadores. El trabajo colectivo de trabajadores del Estado junto a trabajadores que están fuera de la seguridad social fue generando una construcción política barrial que ya lleva más de 20 años en Moreno, Provincia de Buenos Aires donde se realizan actividades sociales, productivas y educativas.
+                                Dentro del ámbito de la educación nos identificamos con la pedagogía crítica latinoamericana siendo esta una de las herramientas fundamentales para la emancipación de l@s trabajador@s.
+                            </p>
 
-                            <div className="row gy-2 gx-4 mb-4">
+                            <div className="row gy-2 gx-4 mb-4 ">
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i>etc</p>
+                                    <p ><Link className="btn" href="/nosotros">+ info</Link></p>
                                 </div>
-                                <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i  me-2"></i>etc</p>
-                                </div>
-                                <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i>etc</p>
-                                </div>
-                                <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i>etc</p>
-                                </div>
+                            
                             </div>
 
+                            
 
                         </div>
                     </div>

@@ -17,6 +17,10 @@ h6 {
   font-weight: bold !important;
 }
 
+.p-j{
+  text-align: justify;
+}
+
 .fw-medium {
   font-weight: 600 !important;
 }

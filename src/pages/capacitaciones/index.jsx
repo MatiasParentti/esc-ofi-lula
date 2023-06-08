@@ -37,7 +37,7 @@ export default function Index() {
 
                                 <div className="service-item text-center pt-3">
                                     <div className="p-4">
-                                        <i className="fa fa-3x fa-globe service-i mb-4 "></i>
+                                        <i className="fa fa-3x fa-graduation-cap service-i mb-4 "></i>
                                         <h5 className="mb-3 ">Cursos</h5>
                                         <p>resumen de noticias</p>
                                         <Link className="btn  py-2 px-lg-4" href="/capacitaciones/cursos" >inscribite</Link>

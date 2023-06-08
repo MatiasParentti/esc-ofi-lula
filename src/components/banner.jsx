@@ -14,7 +14,7 @@ export default function Banner() {
                         height={5000}
                         width={5000}
                         alt="banner"
-        
+
                     ></Image>
                 </div>
             </div>

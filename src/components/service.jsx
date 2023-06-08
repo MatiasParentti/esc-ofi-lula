@@ -15,7 +15,7 @@ export default function Service() {
                                 <div className="p-4">
                                     <i className="fa fa-3x fa-graduation-cap service-i mb-4"></i>
                                     <h5 className="mb-3">Talleres y Cursos</h5>
-                                    <p>resumen de talleres</p>
+                                  
                                     <Link className="btn  py-2 px-lg-4  animated slideInLeft " href="/capacitaciones" >Saber mas</Link>
                                 </div>
                             </div>
@@ -27,8 +27,8 @@ export default function Service() {
                             <div className="service-item text-center pt-3">
                                 <div className="p-4">
                                     <i className="fa fa-3x fa-globe service-i mb-4"></i>
-                                    <h5 className="mb-3">Novedades</h5>
-                                    <p>resumen de noticias</p>
+                                    <h5 className="mb-3">Noticias</h5>
+                                   
                                     <Link className="btn  py-2 px-lg-4  animated slideInLeft " href="/noticias" >Saber mas</Link>
                                 </div>
                             </div>
@@ -42,7 +42,7 @@ export default function Service() {
                                     
                                     <i className="fa fa-3x fa-home service-i mb-4"></i>
                                     <h5 className="mb-3">Nuestro Lugar</h5>
-                                    <p>resumen de nuestro lugar</p>
+                                    
                                     <Link className="btn  py-2 px-lg-4  animated slideInLeft " href="/nosotros" >Saber mas</Link>
                                 </div>
                             </div>

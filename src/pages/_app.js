@@ -7,7 +7,7 @@ import { Encode_Sans } from "next/font/google"
 
 const encode = Encode_Sans({
   subsets: ['latin'],
-  weight: ['100','200','300','400','400','500','600','700'],
+  weight: ['100', '200', '300', '400', '400', '500', '600', '700'],
 })
 
 
@@ -23,8 +23,8 @@ function MyApp({ Component, pageProps }) {
         integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
         crossOrigin="anonymous"
       />
- <main className={encode.className}>
-      <Component {...pageProps} />
+      <main className={encode.className}>
+        <Component {...pageProps} />
       </main>
     </>
   );

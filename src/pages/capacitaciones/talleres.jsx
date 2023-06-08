@@ -17,33 +17,10 @@ export default function Talleres() {
               
                 <h1 className="mb-5"></h1>
                 <div className="alert alert-info" role="alert">
-                    Abierta la Inscripción
+                  Proximamente novedades
                 </div>
             </div>
-            <div className="card mt-5" >
-                <div className="row g-0">
-                    <div className="col-md-4">
-                        <img src="/img/albañil.jpg" className="img-fluid rounded-start" alt="..." />
-                    </div>
-                    <div className="col-md-8">
-                        <div className="card-body ">
-                            <h2 className="card-title">Taller de ejemplo</h2>
-                            <p className="card-text">
-
-                            </p>
-                            <ul className="list-group list-group-flush">
-                                <li className="list-group-item">Inscripción: a partir del 10/10 al 30/10
-                                    Inicio: Noviembre 2022</li>
-                                <li className="list-group-item"> Requisitos: ser mayor de 18 años</li>
-                                <li className="list-group-item"> Documentación requerida: fotocopia de DNI y completar
-                                    planilla de inscripción</li>
-                            </ul>
-                            <Link className="btn py-2 px-lg-4  animated slideInLeft" href="/capacitaciones/talleres">inscribite</Link>
-                           
-                        </div>
-                    </div>
-                </div>
-            </div>
+            
         </div>
 
      

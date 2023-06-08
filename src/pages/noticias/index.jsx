@@ -16,12 +16,14 @@ export default function Noticias({ data, notes, noticias }) {
 
             <Header title='Noticias'></Header>
 
-            {noticias.map(({ _id, title, copete, body, important }) => (
+            {
+
+                noticias.map(({ _id, title, copete, body, important }) => (
 
                 <CardNoticia key={_id} _id={_id} title={title} copete={copete} body={body} important={important}></CardNoticia>
-            ))}
-
-
+            )) 
+            }
+   
         </Layout>
 
     )
@@ -44,4 +46,3 @@ export async function getServerSideProps() {
         console.log(error);
     }
 }
-
