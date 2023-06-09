@@ -10,7 +10,7 @@ export default function Index() {
 
     return (
 
-        <Layout share title='Esc-Ofi | Inscripcion' description='capacitaciones'>
+        <Layout share title='Escuela de Oficios | Inscripcion' description='capacitaciones'>
 
             <Header title='Cursos y Talleres'></Header>
 

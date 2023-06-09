@@ -7,7 +7,7 @@ export default function Talleres() {
 
     return (
 
-        <Layout share title='Esc-Ofi | Talleres' description='talleres'>
+        <Layout share title='Escuela de Oficios | Talleres' description='talleres'>
 
 <Header title='Talleres'></Header>
 

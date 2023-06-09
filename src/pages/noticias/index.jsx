@@ -11,7 +11,7 @@ export default function Noticias({ data, notes, noticias }) {
 
     return (
 
-        <Layout title='Esc-Ofi | Noticias' description='Novedades'>
+        <Layout title='Escuela de Oficios | Noticias' description='Novedades'>
 
 
             <Header title='Noticias'></Header>

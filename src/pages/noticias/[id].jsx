@@ -10,7 +10,7 @@ export default function primerPost({ data }) {
 
     return (
 
-        <Layout share title={`Esc-Ofi | ${data.title}`} description={`${data.copete}`}>
+        <Layout share title={`Escuela de Oficios | ${data.title}`} description={`${data.copete}`}>
 
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">

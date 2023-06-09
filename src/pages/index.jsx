@@ -21,7 +21,7 @@ export default function Index() {
 
     return (
 
-        <Layout title='Esc-Ofi | Inicio' description='Escuela de Oficios Lula Da Silva'>
+        <Layout title='Escuela de Oficios | Inicio' description='Escuela de Oficios Lula Da Silva'>
           
             <div id="spinner" className={spinner}>
                 <div className="spinner-border text-primary" style={{ width: "3rem", height: "3rem" }} role="status">

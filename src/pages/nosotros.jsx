@@ -8,7 +8,7 @@ export default function Nosotros() {
 
     return (
 
-        <Layout share title='Esc-Ofi | Nosotros' description='Sobre Nosotros'>
+        <Layout share title='Escuela de Oficios | Nosotros' description='Sobre Nosotros'>
 
 
             <Header title='Nosotros'></Header>
