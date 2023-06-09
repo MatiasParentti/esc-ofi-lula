@@ -1,6 +1,8 @@
 
 import Header from "@/components/header"
 import Layout from "@/components/layout"
+import Link from "next/link"
+import Image from "next/image"
 
 
 export default function Nosotros() {
@@ -71,7 +73,7 @@ export default function Nosotros() {
                             </p>
                             <p className="mb-4 p-j">
 
-                            Capacitación Hacemos Futuro:  Los programas de cooperativas durante este periodo fueron desarticulados, transformando a los cooperativistas en sujetos individuales de derecho lo cual desarmó la organización colectiva. En nuestro caso resistimos con mucho esfuerzo fortaleciendo la autogestión para sostener las cooperativas vigentes. Aun así continuaron con programas de capacitación en los cuales participamos proponiendo nuestros propios capacitadores. Se desarrollaron capacitaciones en Carpintería en Aluminio, Panaderia y Producción de productos hormigonados.   Nuevamente durante esta etapa aún en un contexto de dificultades  por los cambios de las políticas públicas logramos desarrollar estrategias de resistencia para seguir organizándonos en los barrios.
+                                Capacitación Hacemos Futuro:  Los programas de cooperativas durante este periodo fueron desarticulados, transformando a los cooperativistas en sujetos individuales de derecho lo cual desarmó la organización colectiva. En nuestro caso resistimos con mucho esfuerzo fortaleciendo la autogestión para sostener las cooperativas vigentes. Aun así continuaron con programas de capacitación en los cuales participamos proponiendo nuestros propios capacitadores. Se desarrollaron capacitaciones en Carpintería en Aluminio, Panaderia y Producción de productos hormigonados.   Nuevamente durante esta etapa aún en un contexto de dificultades  por los cambios de las políticas públicas logramos desarrollar estrategias de resistencia para seguir organizándonos en los barrios.
                             </p>
 
 
@@ -88,30 +90,53 @@ export default function Nosotros() {
                                 <div className="col-lg-7 col-md-6">
                                     <div className="row g-3">
                                         <div className="col-lg-12 col-md-12 wow zoomIn" >
-                                            <a className="position-relative d-block overflow-hidden" href="/">
-                                                <img className="img-fluid" src="/img/d.jpeg" alt="" />
+                                            <Link className="position-relative d-block overflow-hidden" href="/">
 
-                                            </a>
+                                                <Image
+                                                    className="img-fluid"
+                                                    src="/img/d.jpeg"
+                                                    height={5000}
+                                                    width={5000}
+                                                    alt="d"
+                                                ></Image>
+                                            </Link>
                                         </div>
                                         <div className="col-lg-6 col-md-12 wow zoomIn">
-                                            <a className="position-relative d-block overflow-hidden" href="/">
-                                                <img className="img-fluid" src="/img/c.jpg" alt="" />
-
-                                            </a>
+                                            <Link className="position-relative d-block overflow-hidden" href="/">
+                                                <Image
+                                                    className="img-fluid"
+                                                    src="/img/c.jpg"
+                                                    height={5000}
+                                                    width={5000}
+                                                    alt="c"
+                                                ></Image>
+                                            </Link>
                                         </div>
                                         <div className="col-lg-6 col-md-12 wow zoomIn" >
-                                            <a className="position-relative d-block overflow-hidden" href="/">
-                                                <img className="img-fluid" src="/img/b.jpg" alt="" />
+                                            <Link className="position-relative d-block overflow-hidden" href="/">
+                                                <Image
+                                                    className="img-fluid"
+                                                    src="/img/b.jpg"
+                                                    height={5000}
+                                                    width={5000}
+                                                    alt="b"
 
-                                            </a>
+                                                ></Image>
+                                            </Link>
                                         </div>
                                     </div>
                                 </div>
                                 <div className="col-lg-5 col-md-6 wow zoomIn" style={{ minHeight: '350px' }} >
-                                    <a className="position-relative d-block h-100 overflow-hidden" href="/">
-                                        <img className="img-fluid position-absolute w-100 h-100" src="/img/a.jpg" alt="" style={{ objectFit: 'cover' }} />
-
-                                    </a>
+                                    <Link className="position-relative d-block h-100 overflow-hidden" href="/">
+                                        <Image
+                                            className="img-fluid position-absolute w-100 h-100"
+                                            src="/img/a.jpg"
+                                            height={5000}
+                                            width={5000}
+                                            alt="a"
+                                            style={{ objectFit: 'cover' }}
+                                        ></Image>
+                                    </Link>
                                 </div>
                             </div>
                         </div>
@@ -124,15 +149,14 @@ export default function Nosotros() {
                             <h4>Seguinos en nuestras redes</h4>
                             <div className="row gy-2 gx-4 mb-4 mt-4">
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><a className="deco-none" href="">Instagram</a></p>
+                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="">Instagram</Link></p>
                                 </div>
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i  me-2"></i><a className="deco-none" href="https://www.facebook.com/Escuela-de-Oficios-In%C3%A1cio-Lula-da-Silva-104201234553498/?ref=page_internal">Facebook</a></p>
+                                    <p className="mb-0"><i className="fa fa-arrow-right service-i  me-2"></i><Link target="_blank" className="deco-none" href="https://www.facebook.com/Escuela-de-Oficios-In%C3%A1cio-Lula-da-Silva-104201234553498/?ref=page_internal">Facebook</Link></p>
                                 </div>
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><a className="deco-none" href="">Youtube</a></p>
+                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="">Youtube</Link></p>
                                 </div>
-
                             </div>
                         </div>
                     </div>
