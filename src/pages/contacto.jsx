@@ -79,6 +79,6 @@ export default function Contacto() {
 }
 
 Layout.defaultProps = {
-    title: "Esc-Ofi | Contacto",
+    title: "Escuela de Oficio | Contacto",
     description: "Contacto | redes sociales",
 };

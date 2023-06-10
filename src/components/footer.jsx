@@ -17,8 +17,8 @@ export default function Footer() {
                         <div className="d-flex pt-2">
                      
                             <a className="btn btn-outline-light btn-social" target="_blank" href="https://www.facebook.com/Escuela-de-Oficios-In%C3%A1cio-Lula-da-Silva-104201234553498/?ref=page_internal"><i className="fab fa-facebook-f"></i></a>
-                            <a className="btn btn-outline-light btn-social" target="_blank" href=""><i className="fab fa-youtube"></i></a>
-                            <a className="btn btn-outline-light btn-social" target="_blank" href=""><i className="fab fa-instagram"></i></a>
+                            <a className="btn btn-outline-light btn-social" target="_blank" href="https://www.youtube.com/@escueladeoficiosluladasilva"><i className="fab fa-youtube"></i></a>
+                            <a className="btn btn-outline-light btn-social" target="_blank" href="https://www.instagram.com/escueladeoficios.luladasilva/"><i className="fab fa-instagram"></i></a>
                         </div>
                     </div>
                 </div>

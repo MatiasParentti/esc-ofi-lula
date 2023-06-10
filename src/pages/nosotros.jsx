@@ -81,8 +81,6 @@ export default function Nosotros() {
 
                         </div>
                     </div>
-
-
                     <div className="container-xxl py-5 category">
                         <div className="container">
 
@@ -141,25 +139,23 @@ export default function Nosotros() {
                             </div>
                         </div>
                     </div>
-
-
-
                     <div className="row g-10">
                         <div className="col-lg-12 wow fadeInUp mt-2">
                             <h4>Seguinos en nuestras redes</h4>
                             <div className="row gy-2 gx-4 mb-4 mt-4">
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="">Instagram</Link></p>
+                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="https://www.instagram.com/escueladeoficios.luladasilva/">Instagram</Link></p>
                                 </div>
                                 <div className="col-sm-6">
                                     <p className="mb-0"><i className="fa fa-arrow-right service-i  me-2"></i><Link target="_blank" className="deco-none" href="https://www.facebook.com/Escuela-de-Oficios-In%C3%A1cio-Lula-da-Silva-104201234553498/?ref=page_internal">Facebook</Link></p>
                                 </div>
                                 <div className="col-sm-6">
-                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="">Youtube</Link></p>
+                                    <p className="mb-0"><i className="fa fa-arrow-right service-i me-2"></i><Link target="_blank" className="deco-none" href="https://www.youtube.com/@escueladeoficiosluladasilva">Youtube</Link></p>
                                 </div>
                             </div>
                         </div>
                     </div>
+                 
                 </div>
             </div>
 
