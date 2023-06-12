@@ -34,7 +34,7 @@ export default function Footer() {
                                 <div className="footer-menu">
 
                                     <Link href='/'>Inicio</Link>
-                                    <Link href="/nosotros">Nosotros</Link>
+                                    <Link href="/nosotros">Nosotr@s</Link>
                                     <Link href="/contacto">Contacto</Link>
                                 </div>
                             </div>

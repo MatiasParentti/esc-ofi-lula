@@ -28,7 +28,7 @@ export default function NavBar() {
                 <div className="collapse navbar-collapse" id="navbarCollapse">
                     <div className="navbar-nav ms-auto p-4 p-lg-0">
                         <Link className="nav-item nav-link" href="/nosotros">
-                            <div>Nosotros</div>
+                            <div>Nosotr@s</div>
                         </Link>
                         <Link className="nav-item nav-link" href="/capacitaciones">
                             <div>Inscripcion</div>
