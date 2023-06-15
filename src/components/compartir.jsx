@@ -11,9 +11,6 @@ export default function Compartir() {
 
     useEffect(() => {
        
-      
-     
-
         return () => {
               setUrl(router.asPath)
            

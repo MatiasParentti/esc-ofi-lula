@@ -6,9 +6,6 @@ import conectarDB from "@/lib/dbConnect";
 
 export default function Noticias({ data, notes, noticias }) {
 
-
-
-
     return (
 
         <Layout title='Escuela de Oficios | Noticias' description='Novedades'>

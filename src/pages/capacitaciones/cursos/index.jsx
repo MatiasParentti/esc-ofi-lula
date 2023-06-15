@@ -29,10 +29,12 @@ export default function Cursos() {
                             <h2 className="card-title">Carpintera/o en Aluminio Básico</h2>
                         </div>
                         <img src="/img/carpintero.jpg" className="card-img-top" alt="..." />
-                        
+
                         <div className="card-body text-center">
 
-                            <Link target="_blank" className="btn py-2 px-lg-4  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
+                        <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
+                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/carpinteria-en-aluminio-basico">+info</Link>
+                           
                         </div>
                     </div>
 
@@ -44,11 +46,12 @@ export default function Cursos() {
                         </div>
                         <img src="/img/marilo.jpg" className="card-img-top" alt="..." />
                         <div className="card-body text-center">
-                            <Link target="_blank" className="btn py-2 px-lg-4  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
+                            <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
+                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/auxiliar-en-instalaciones-sanitarias-y-de-gas">+info auxiliar</Link>
+                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/armador-de-hierros-para-estructuras-de-hormigon-armado">+info armador</Link>
                         </div>
                     </div>
 
-                    
 
                 </div>
             </div>

@@ -6,8 +6,6 @@ import LayotutNoticia from "@/components/noticia";
 export default function primerPost({ data }) {
 
 
-
-
     return (
 
         <Layout share title={`Escuela de Oficios | ${data.title}`} description={`${data.copete}`}>

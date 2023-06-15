@@ -27,12 +27,9 @@ export default function Footer() {
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
                                 &copy; <Link className="border-bottom" href="#">Escuela de oficios</Link>, All Right Reserved.
-
-
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 <div className="footer-menu">
-
                                     <Link href='/'>Inicio</Link>
                                     <Link href="/nosotros">Nosotr@s</Link>
                                     <Link href="/contacto">Contacto</Link>
