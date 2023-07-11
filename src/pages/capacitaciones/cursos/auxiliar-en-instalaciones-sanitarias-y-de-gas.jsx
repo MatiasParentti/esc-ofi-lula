@@ -1,6 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function primerPost({ data }) {
 
@@ -27,9 +27,27 @@ export default function primerPost({ data }) {
                 <div className="card-body">
                     <h2 className="card-title"></h2>
                 </div>
-                <img src="/img/aux1.jpg" className="card-img-top" alt="..." />
-                <img src="/img/aux2.jpg" className="card-img-top" alt="..." />
-                <img src="/img/aux3.jpg" className="card-img-top" alt="..." />
+                <Image
+                    className="img-fluid "
+                    src="/img/aux1.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="aux1"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/aux2.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="aux2"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/aux3.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="aux3"
+                ></Image>
 
                 <div className="card-body text-center">
 

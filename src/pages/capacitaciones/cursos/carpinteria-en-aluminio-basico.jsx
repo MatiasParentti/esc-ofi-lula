@@ -1,6 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function primerPost({ data }) {
 
@@ -15,7 +15,7 @@ export default function primerPost({ data }) {
                         <div className="col-lg-10 text-center">
                             <h1 className="display-3 text-white animated slideInDown">Carpintera/o en Aluminio Básico</h1>
                             <nav aria-label="breadcrumb">
-                     
+
                                 <br></br>
                                 <br></br>
                             </nav>
@@ -29,9 +29,27 @@ export default function primerPost({ data }) {
                 <div className="card-body">
                     <h2 className="card-title"></h2>
                 </div>
-                <img src="/img/carp1.jpg" className="card-img-top" alt="..." />
-                <img src="/img/carp2.jpg" className="card-img-top" alt="..." />
-                <img src="/img/carp3.jpg" className="card-img-top" alt="..." />
+                <Image
+                    className="img-fluid "
+                    src="/img/carp1.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="carp1"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/carp2.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="carp2"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/carp3.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="carp3"
+                ></Image>
 
                 <div className="card-body text-center">
 

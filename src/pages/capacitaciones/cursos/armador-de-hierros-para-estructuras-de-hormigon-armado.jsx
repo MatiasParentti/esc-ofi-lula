@@ -1,6 +1,6 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function primerPost({ data }) {
 
@@ -16,8 +16,6 @@ export default function primerPost({ data }) {
                             <h1 className="display-3 text-white animated slideInDown">Armador de hierros para estructuras de Hormigón Armado</h1>
                             <nav aria-label="breadcrumb">
                                 <br></br>
-
-                                
                                 <br></br>
                             </nav>
                         </div>
@@ -29,9 +27,28 @@ export default function primerPost({ data }) {
                 <div className="card-body">
                     <h2 className="card-title"></h2>
                 </div>
-                <img src="/img/arm1.jpg" className="card-img-top" alt="..." />
-                <img src="/img/arm2.jpg" className="card-img-top" alt="..." />
-                <img src="/img/arm3.jpg" className="card-img-top" alt="..." />
+                <Image
+                    className="img-fluid "
+                    src="/img/arm1.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="arm1"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/arm2.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="arm2"
+                ></Image>
+                <Image
+                    className="img-fluid "
+                    src="/img/arm3.jpg"
+                    height={5000}
+                    width={5000}
+                    alt="arm3"
+                ></Image>
+                
 
                 <div className="card-body text-center">
 
