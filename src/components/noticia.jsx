@@ -29,7 +29,7 @@ export default function LayotutNoticia({ data }) {
                     <p>Carpintera/o en Aluminio Básico se dicta en la Sede de Bermejo 731, Francisco Alvarez, Moreno y su duración  será de dos meses y se cursará dos veces por semana de 13 a 17 hs. 
 </p>
                     <p  className="p-j">Auxiliar en Instalaciones Sanitarias y de Gas ( 60 hs) de 13 a 17 hs y Armador de Hierros para estructuras de Hormigón Armado (66hs) 08 a 12 hs. Ambos cursos se dictan  en la Sede  Lincoln 6877, Marilo, Trujui , Moreno dos veces por semana. </p>
-                    <p  className="p-j">La inscripción se encuentra abierta a través del Portal Empleo: https://www.portalempleo.gob.ar  hasta el 25/06/2023 y a través del siguiente <a  href="/">link</a> de la Escuela de Oficios hasta el 03/07/2023.</p>
+                    <p  className="p-j">La inscripción se encuentra abierta a través del Portal Empleo: https://www.portalempleo.gob.ar  hasta el 25/06/2023 y a través del siguiente link de la Escuela de Oficios hasta el 03/07/2023.</p>
                     <p  className="p-j"> Para más información entra al siguiente    <Link href="/capacitaciones/cursos">Link</Link> 
 
 </p>
