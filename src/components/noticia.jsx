@@ -1,5 +1,5 @@
 import Link from "next/link"
-
+import Image from "next/image"
 
 export default function LayotutNoticia({ data }) {
 
@@ -13,13 +13,13 @@ export default function LayotutNoticia({ data }) {
                 <div className="mt-5 container">
                     <h6>{'Se encuentra abierta la inscripción de tres cursos que inician en julio del presente año, no te quedes sin vacante.'}</h6>
                     <br></br>
-                    <img
+                    <Image
                         className="img-fluid "
                         src={'/img/not.jfif'}
                         height={500}
                         width={500}
                         alt="banner"
-                    ></img>
+                    ></Image>
 
                     <br></br>
                     <br></br>

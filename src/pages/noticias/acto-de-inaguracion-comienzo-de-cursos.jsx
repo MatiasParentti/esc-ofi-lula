@@ -33,13 +33,13 @@ export default function Test() {
                     <div className="mt-5 container">
                         <h6>{'Este martes 4 de julio se realizo el Acto de inicio de cursada e inauguración de la Escuela Comunitaria de Oficios Inacio Lula Da Silva ubicada en el barrio de Marilo, Trujui, Moreno.'}</h6>
                         <br></br>
-                        <img
+                        <Image
                             className="img-fluid "
                             src={'/img/ina.jpg'}
                             height={500}
                             width={500}
                             alt="banner"
-                        ></img>
+                        ></Image>
 
                         <br></br>
                         <br></br>

@@ -1,4 +1,4 @@
-
+import Image from "next/image"
 
 export default function Carrousel() {
 
@@ -16,7 +16,14 @@ export default function Carrousel() {
                 <div id="carouselExampleControls" data-bs-ride="carousel" className=" carousel-inner owl-carousel header-carousel position-relative">
 
                     <div className="carousel-item active owl-carousel-item position-relative">
-                        <img className="img-fluid" src="img/carousel-1.jpg" alt="" />
+                       
+                        <Image
+                            className="img-fluid"
+                            src={'/img/carousel-1.jpg'}
+                            height={5000}
+                            width={5000}
+                            alt="carousel"
+                        ></Image>
                         <div className="position-absolute top-0 start-0 w-100 h-100 d-flex align-items-center" style={{ background: 'rgba(24, 29, 56, .7)' }}>
                             <div className="container">
                                 <div className="row justify-content-start">
@@ -32,7 +39,7 @@ export default function Carrousel() {
                         </div>
                     </div>
 
-{/* 
+                    {/* 
 
 
   <div className="carousel-item  owl-carousel-item position-relative">
@@ -52,7 +59,7 @@ export default function Carrousel() {
 
 
 */}
-                  
+
 
                 </div>
 
