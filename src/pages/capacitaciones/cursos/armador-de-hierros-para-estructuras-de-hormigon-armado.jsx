@@ -50,7 +50,7 @@ export default function primerPost({ data }) {
                 ></Image>
                 
 
-                <div className="card-body text-center">
+                <div className="card-body text-center" style={{display: 'none'}}>
 
                     <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
                 </div>
