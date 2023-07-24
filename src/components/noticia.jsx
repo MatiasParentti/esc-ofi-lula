@@ -15,7 +15,7 @@ export default function LayotutNoticia({ data }) {
                     <br></br>
                     <Image
                         className="img-fluid "
-                        src={'/img/d.jpeg'}
+                        src={'/img/not.jfif'}
                         height={500}
                         width={500}
                         alt="banner"
