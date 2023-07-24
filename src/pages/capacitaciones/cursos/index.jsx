@@ -18,37 +18,35 @@ export default function Cursos() {
                 <div className="container">
                     <div className="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
 
-                        <div className="alert alert-warning" role="alert">
-                            Inscripciones cerradas
+                        <div className="alert alert-info" role="alert">
+                            Inscripciones abiertas | inicio de cursada Septiembre 2023
                         </div>
                     </div>
 
 
                     <div className="card mb-3">
                         <div className="card-body">
-                            <h2 className="card-title">Carpintera/o en Aluminio Básico</h2>
+                            <h2 className="card-title">SOLDADOR BÁSICO</h2>
                         </div>
-                        <img src="/img/carpintero.jpg" className="card-img-top" alt="..." />
+                        <img src="/img/soldador.jpg" className="card-img-top" alt="..." />
 
                         <div className="card-body text-center">
 
-                        <Link target="_blank" style={{display: 'none'}} className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
-                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/carpinteria-en-aluminio-basico">+info</Link>
+                        <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>
+                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/soldador-basico">+info</Link>
                            
                         </div>
                     </div>
 
                     <div className="card mb-3 mt-5">
                         <div className="card-body">
-                            <h2 className="card-title">Auxiliar en Instalaciones Sanitarias y de Gas -
-                                Armador de hierros para estructuras de Hormigón Armado
+                            <h2 className="card-title">OPERADOR/A DE MÁQUINA INDUSTRIAL OVERLOCK
                             </h2>
                         </div>
-                        <img src="/img/marilo.jpg" className="card-img-top" alt="..." />
+                        <img src="/img/overlock.jpg" className="card-img-top" alt="..." />
                         <div className="card-body text-center">
-                            <Link target="_blank" style={{display: 'none'}} className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/DMA2D8QZ8FWmRCFz8">inscribite</Link>
-                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/auxiliar-en-instalaciones-sanitarias-y-de-gas">+info auxiliar</Link>
-                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/armador-de-hierros-para-estructuras-de-hormigon-armado">+info armador</Link>
+                            <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>
+                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/operador-de-maquina-industrial-overlock">+info</Link>
                         </div>
                     </div>
 

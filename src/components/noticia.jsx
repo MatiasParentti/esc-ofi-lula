@@ -7,15 +7,15 @@ export default function LayotutNoticia({ data }) {
     return (
 
         <div className="noticia container">
-            <div className="container">
+            <div className="pt">
                 <h1 className="mt-5">{'Nuevos cursos en julio 2023'}</h1>
                 <div className="hr"></div>
-                <div className="mt-5 container">
+                <div className="mt-5">
                     <h6>{'Se encuentra abierta la inscripción de tres cursos que inician en julio del presente año, no te quedes sin vacante.'}</h6>
                     <br></br>
                     <Image
                         className="img-fluid "
-                        src={'/img/not.jfif'}
+                        src={'/img/d.jpeg'}
                         height={500}
                         width={500}
                         alt="banner"

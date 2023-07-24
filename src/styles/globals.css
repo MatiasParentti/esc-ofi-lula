@@ -20,6 +20,19 @@ h6 {
 .p-j{
   text-align: justify;
 }
+.p-jj{
+  text-align: justify;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  
+}
+
+
+.pt{
+  width: 100%;
+  margin-right: auto;
+  margin-left: auto;
+}
 
 .fw-medium {
   font-weight: 600 !important;

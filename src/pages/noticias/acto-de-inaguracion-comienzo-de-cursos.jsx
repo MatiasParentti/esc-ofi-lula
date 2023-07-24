@@ -27,10 +27,10 @@ export default function Test() {
             </div>
 
             <div className="noticia container">
-                <div className="container">
+                <div className="pt">
                     <h1 className="mt-5">{'Acto de inaguracion y comienzo de cursos'}</h1>
                     <div className="hr"></div>
-                    <div className="mt-5 container">
+                    <div className="mt-5">
                         <h6>{'Este martes 4 de julio se realizo el Acto de inicio de cursada e inauguración de la Escuela Comunitaria de Oficios Inacio Lula Da Silva ubicada en el barrio de Marilo, Trujui, Moreno.'}</h6>
                         <br></br>
                         <Image
