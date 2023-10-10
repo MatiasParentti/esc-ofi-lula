@@ -141,13 +141,12 @@ export default function Test4() {
                             <div className="row g-3">
                                 <div className="col-lg-12 col-md-12 wow zoomIn" >
                                     <Link className="position-relative d-block overflow-hidden" href="/">
-
                                         <Image
                                             className="img-fluid"
                                             src="/img/juntos.jpg"
                                             height={5000}
                                             width={5000}
-                                            alt="d"
+                                            alt="juntos"
                                         ></Image>
                                     </Link>
                                 </div>
