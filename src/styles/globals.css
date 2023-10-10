@@ -27,7 +27,11 @@ h6 {
   
 }
 
-
+.alineado{
+  text-align:end;
+  
+  padding-right: 2rem;
+}
 .pt{
   width: 100%;
   margin-right: auto;
