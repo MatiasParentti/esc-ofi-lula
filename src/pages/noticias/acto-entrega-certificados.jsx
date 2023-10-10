@@ -143,7 +143,7 @@ export default function Test4() {
                                     <Link className="position-relative d-block overflow-hidden" href="/">
                                         <Image
                                             className="img-fluid"
-                                            src="/img/juntos.jpg"
+                                            src="/img/juntoss.jpg"
                                             height={5000}
                                             width={5000}
                                             alt="juntos"
