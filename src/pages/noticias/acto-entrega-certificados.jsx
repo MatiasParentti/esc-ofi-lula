@@ -45,10 +45,11 @@ export default function Test4() {
 
                         <br></br>
 
-                        <p className="p-j">El sábado 7 de octubre se realizó en la Sede Marilo de la Escuela de Oficios Inacio Lula Da Silva el Acto de entrega de certificados de los siguientes cursos: Carpintería en Aluminio Básico, Auxiliar en instalaciones Sanitarias y de Gas, Armador de Hierro para estructuras de Hormigón Armado, Instalador electricista domiciliario y Albañil en construcción tradicional.
+                        <p className="p-j">El sábado 7 de octubre se realizó en la Sede Marilo de la Escuela de Oficios Inacio Lula Da Silva el Acto de entrega de certificados de los siguientes cursos: Carpintería en Aluminio Básico, Auxiliar en Instalaciones Sanitarias y de Gas, Armador de Hierro para Estructuras de Hormigón Armado, Instalador Electricista Domiciliario y Albañil en Construcción Tradicional. 
                         </p>
-                        <p className="p-j">Contamos con la grata presencia de la Intendenta de Moreno Mariel Fernandez y la Ministra de Trabajo, Empleo y Seguridad Social de la Nación Kelly Olmos quienes nos compartieron muy lindas palabras para los egresados y la escuela  . El Acto se llevó a cabo con la asistencia de estudiantes, docentes ,  familiares ,  amigos,  amigas , vecinos ,  vecinas ,  compañeros y compañeras de la Organización Libres del Pueblo.  </p>
-                        <p className="p-j">Fue una jornada muy emotiva en la cual compartimos números musicales de parte de Juan Carlos Acosta y Ruiz Isabel,   estudiantes del curso de Soldador Básico, que nos compartieron música folklórica, el momento murguero de parte de compañeros y docentes de la Escuela  y el del Acto cierre con la banda Viejo Borgoña a todo rock y blues.
+                        <p className="p-j">Contamos con la grata presencia de la Intendenta de Moreno Mariel Fernandez y la Ministra de Trabajo, Empleo y Seguridad Social de la Nación Kelly Olmos, quienes nos compartieron muy lindas palabras para lxs egresadxs y la Escuela. El Acto se llevó a cabo con la asistencia de estudiantes, docentes, compañeros y compañeras de la Organización Libres del Pueblo, familiares, amigos, amigas, vecinos y vecinas.
+ </p>
+                        <p className="p-j">Fue una jornada muy emotiva en la cual compartimos números musicales de parte de Juan Carlos Acosta y Isabel Ruiz,   estudiantes del curso de Soldador Básico, que nos compartieron música folklórica. El momento murguero por parte de compañeros y docentes de la Escuela. El cierre del acto fue por la banda Viejo Borgoña a todo rock y blues.  
                         </p>
 
 
