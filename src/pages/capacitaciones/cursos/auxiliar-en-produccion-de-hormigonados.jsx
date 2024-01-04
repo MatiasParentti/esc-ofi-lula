@@ -7,13 +7,13 @@ export default function primerPost({ data }) {
 
     return (
 
-        <Layout share title={`Escuela de Oficios | Soldador Básico`} description={`Soldador Básico`}>
+        <Layout share title={`Escuela de Oficios | Auxiliar en produccion de hormigonados`} description={`Auxiliar en produccion de hormigonados`}>
 
             <div className="container-fluid bg-primary py-5 mb-5 page-header">
                 <div className="container py-5">
                     <div className="row justify-content-center">
                         <div className="col-lg-10 text-center">
-                            <h1 className="display-3 text-white animated slideInDown">Soldador Básico</h1>
+                            <h1 className="display-3 text-white animated slideInDown">Auxiliar en produccion de hormigonados</h1>
                             <nav aria-label="breadcrumb">
 
                                 <br></br>
@@ -31,29 +31,30 @@ export default function primerPost({ data }) {
                 </div>
                 <Image
                     className="img-fluid "
-                    src="/img/sol1.jpg"
+                    src="/img/hor1.jpg"
                     height={5000}
                     width={5000}
                     alt="carp1"
                 ></Image>
                 <Image
                     className="img-fluid "
-                    src="/img/sol2.jpg"
+                    src="/img/hor2.jpg"
                     height={5000}
                     width={5000}
                     alt="carp2"
                 ></Image>
-                <Image
+                   <Image
                     className="img-fluid "
-                    src="/img/sol3.jpg"
+                    src="/img/hor3.jpg"
                     height={5000}
                     width={5000}
-                    alt="carp3"
+                    alt="carp2"
                 ></Image>
+               
 
                 <div className="card-body text-center" >
 
-               <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/qud6fyg8Jqd8pQ4T6">inscribite</Link>
+                   <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/qud6fyg8Jqd8pQ4T6">inscribite</Link>
                 </div>
             </div>
 
