@@ -12,17 +12,22 @@ export default function Cursos() {
 
             <Header title='Cursos'></Header>
 
+<div className="container">
+<div className="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
 
-            <div className="container-xxl py-5 category">
+<div className="alert alert-info" role="alert">
+    Proximamente novedades
+</div>
+</div>
+
+</div>
+
+            <div style={
+                { display: 'none' }
+            } className="container-xxl py-5 category">
 
                 <div className="container">
-                    <div className="text-center wow fadeInUp mb-5" data-wow-delay="0.1s">
-
-                        <div className="alert alert-info" role="alert">
-                            Inscripciones abiertas | inicio de cursada Septiembre 2023
-                        </div>
-                    </div>
-
+                  
 
                     <div className="card mb-3">
                         <div className="card-body">
@@ -32,9 +37,9 @@ export default function Cursos() {
 
                         <div className="card-body text-center">
 
-                        <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>
-                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/soldador-basico">+info</Link>
-                           
+                            {/**  <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>*/}
+                            <Link className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/soldador-basico">+info</Link>
+
                         </div>
                     </div>
 
@@ -45,8 +50,8 @@ export default function Cursos() {
                         </div>
                         <img src="/img/overlock.jpg" className="card-img-top" alt="..." />
                         <div className="card-body text-center">
-                            <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>
-                            <Link  className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/operador-de-maquina-industrial-overlock">+info</Link>
+                            {/**<Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="">inscribite</Link>*/}
+                            <Link className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/operador-de-maquina-industrial-overlock">+info</Link>
                         </div>
                     </div>
 

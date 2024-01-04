@@ -53,7 +53,7 @@ export default function primerPost({ data }) {
 
                 <div className="card-body text-center" >
 
-                    <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>
+                   {/*<Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/5SgFEnRrCgfd5kL16">inscribite</Link>*/ } 
                 </div>
             </div>
 
