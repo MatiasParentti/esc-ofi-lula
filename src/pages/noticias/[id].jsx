@@ -1,6 +1,6 @@
 import Layout from "@/components/layout"
-import Noticia from '../../models/Noticia';
-import conectarDB from "@/lib/dbConnect";
+//import Noticia from '../../models/Noticia';
+//import conectarDB from "@/lib/dbConnect";
 import LayotutNoticia from "@/components/noticia";
 
 export default function primerPost({ data }) {
@@ -33,6 +33,8 @@ export default function primerPost({ data }) {
     )
 
 }
+/**
+ * 
 
 export async function getStaticPaths() {
     try {
@@ -69,5 +71,6 @@ export async function getStaticProps({ params }) {
     }
 }
 
-
+ * 
+ */
 
