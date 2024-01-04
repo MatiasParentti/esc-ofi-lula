@@ -1,5 +1,6 @@
 import mongoose from 'mongoose'
-
+/**
+ 
 const URI_MONGO = process.env.URI_MONGO
 
 const conectarDB = async () => {
@@ -18,3 +19,5 @@ const conectarDB = async () => {
 }
 
 export default conectarDB;
+* 
+ */

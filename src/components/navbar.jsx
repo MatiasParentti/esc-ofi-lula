@@ -13,6 +13,7 @@ export default function NavBar() {
 
                     <Image
 
+                       
                         src="/img/favicon.ico"
                         height={70}
                         width={70}

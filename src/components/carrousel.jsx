@@ -20,6 +20,8 @@ export default function Carrousel() {
                         <Image
                             className="img-fluid"
                             src={'/img/carousel-1.jpg'}
+                            loading="eager" 
+                            priority={true}
                             height={5000}
                             width={5000}
                             alt="carousel"
