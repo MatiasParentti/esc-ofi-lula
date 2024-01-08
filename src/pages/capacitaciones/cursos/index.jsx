@@ -1,6 +1,7 @@
 import Layout from "@/components/layout"
 import Link from "next/link"
 import Header from "@/components/header"
+import Image from "next/image"
 
 export default function Cursos() {
 
@@ -31,7 +32,15 @@ export default function Cursos() {
                         <div className="card-body">
                             <h2 className="card-title">OPERADOR DE MAQUINA INDUSTRIAL RECTA</h2>
                         </div>
-                        
+                        <Image
+                    className="img-fluid "
+                    src="/img/recta.jpg"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt="carp1"
+                ></Image>
 
                         <div className="card-body text-center">
 
@@ -46,7 +55,15 @@ export default function Cursos() {
                             <h2 className="card-title">SOLDADOR BASICO
                             </h2>
                         </div>
-                        
+                        <Image
+                    className="img-fluid "
+                    src="/img/soldadorr.jpg"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt="carp1"
+                ></Image>
                         <div className="card-body text-center">
                             <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/qud6fyg8Jqd8pQ4T6">inscribite</Link>
                             <Link className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/soldador-basico">+info</Link>
@@ -58,7 +75,15 @@ export default function Cursos() {
                             <h2 className="card-title">AUXILIAR EN PRODUCCIÓN DE HORMIGONADOS 
                             </h2>
                         </div>
-                        
+                        <Image
+                    className="img-fluid "
+                    src="/img/hormigonados.jpg"
+                    width="0"
+                    height="0"
+                    sizes="100vw"
+                    style={{ width: '100%', height: 'auto' }}
+                    alt="carp1"
+                ></Image>
                         <div className="card-body text-center">
                             <Link target="_blank" className="btn py-3 px-5  animated slideInLeft" href="https://forms.gle/qud6fyg8Jqd8pQ4T6">inscribite</Link>
                             <Link className="btn py-3 px-5  animated slideInLeft" href="/capacitaciones/cursos/auxiliar-en-produccion-de-hormigonados">+info</Link>
