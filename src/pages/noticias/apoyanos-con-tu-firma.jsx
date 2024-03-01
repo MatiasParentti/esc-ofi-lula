@@ -33,7 +33,7 @@ export default function Test() {
                         <br></br>
                         <Image
                             className="img-fluid "
-                            src={'/img/d.JPEG'}
+                            src={'/img/d.jpeg'}
                             height={500}
                             width={500}
                             alt="banner"
