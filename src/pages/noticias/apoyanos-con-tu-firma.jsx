@@ -54,7 +54,7 @@ export default function Test() {
                         <br></br>
 
 
-                        <p className="card-text"><small className="text-muted">{'6 Junio, 2023. 12:14 hrs'}</small></p>
+                        <p className="card-text"><small className="text-muted">{'01 Marzo, 2024. 18:27 hrs'}</small></p>
 
 
 
