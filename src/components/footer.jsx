@@ -26,7 +26,7 @@ export default function Footer() {
                     <div className="copyright">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                                &copy; <Link className="border-bottom" href="#">Escuela de oficios</Link>, All Right Reserved.
+                                &copy; <Link className="border-bottom" href="#">Escuela de oficios</Link>, All Right Reserved. Powered by <Link className="border-bottom" href="https://linktr.ee/Matias_Parentti">𝓜𝓟♡</Link>
                             </div>
                             <div className="col-md-6 text-center text-md-end">
                                 <div className="footer-menu">
